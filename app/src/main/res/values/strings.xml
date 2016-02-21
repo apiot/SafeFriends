@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">SafeFriends</string>
+    <string name="action_settings">Settings</string>
+    <string name="button_call_friend">Call my friends</string>
+
+    <string-array name="items_drawer">
+        <item>Home</item>
+        <item>Friends</item>
+        <item>Message</item>
+    </string-array>
+
+    <string name="opening">Opening</string>
+    <string name="closing">Closing</string>
+
+    <string name="message_last"></string>
+
+    <string name="default_sms_message">Your friend needs help. Please open SafeFriends and share your GPS location. Message sent by SafeFriends App.</string>
+</resources>

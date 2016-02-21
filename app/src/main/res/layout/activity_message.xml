@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ListView
+        android:id="@+id/my_drawer"
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="#6e78f4"
+        android:choiceMode="singleChoice"
+        android:divider="#AAA"
+        android:dividerHeight="1dp" />
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    tools:context="shy.safefriends.MessageActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/message_activity_editText"
+        android:layout_weight="0.42"
+        android:textColor="#000"
+        android:layout_gravity="left|top"
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        android:autoText="false"
+        android:inputType="textMultiLine"
+        android:background="@drawable/edittext_setting"
+        android:ems="10"
+        android:singleLine="false" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:id="@+id/message_activity_valid_button"
+        android:layout_gravity="right"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/button_save"
+        android:layout_weight="0.01" />
+</LinearLayout>
+</android.support.v4.widget.DrawerLayout>
